@@ -1,13 +1,9 @@
 // script.js - Complete fixed version
 const API_BASE_URL = (() => {
     if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-        if (window.location.port === '3000') {
-            
-        } else {
-            return 'https://ai-based-crop-recommendation-n3is.onrender.com/api';
-        }
+        return 'http://localhost:5001/api';
     }
-    
+    return 'https://ai-based-crop-recommendation-n3is.onrender.com/api';  // <-- your real URL here
 })();
 
 console.log('🌐 API Base URL:', API_BASE_URL);
