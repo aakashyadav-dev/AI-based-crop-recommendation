@@ -4,7 +4,7 @@ const API_BASE_URL = (() => {
         if (window.location.port === '3000') {
             return '/api';
         } else {
-            return 'http://localhost:5001/api';
+            return 'https://ai-based-crop-recommendation-n3is.onrender.com/api';
         }
     }
     return '/api';
