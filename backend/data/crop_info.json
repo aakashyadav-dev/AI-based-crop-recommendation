@@ -1,0 +1,483 @@
+{
+  "apple": {
+    "name": "Apple",
+    "avg_temperature": 22.6,
+    "avg_humidity": 92.3,
+    "avg_ph": 5.9,
+    "avg_rainfall": 112.7,
+    "avg_nitrogen": 20.8,
+    "avg_phosphorus": 134.2,
+    "avg_potassium": 199.9,
+    "soil_types": [
+      "Loamy Soil"
+    ],
+    "growing_season": "Temperate (perennial)",
+    "water_requirement": "Medium",
+    "duration": "Perennial (fruits in 4-5 yrs)",
+    "states": [
+      "Himachal Pradesh",
+      "Jammu & Kashmir"
+    ],
+    "icon": "fa-apple-whole"
+  },
+  "banana": {
+    "name": "Banana",
+    "avg_temperature": 27.4,
+    "avg_humidity": 80.4,
+    "avg_ph": 6.0,
+    "avg_rainfall": 104.6,
+    "avg_nitrogen": 100.2,
+    "avg_phosphorus": 82.0,
+    "avg_potassium": 50.0,
+    "soil_types": [
+      "Loamy Soil",
+      "Alluvial Soil"
+    ],
+    "growing_season": "Year-round (perennial)",
+    "water_requirement": "High",
+    "duration": "10-12 months",
+    "states": [
+      "Tamil Nadu",
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "icon": "fa-apple-whole"
+  },
+  "blackgram": {
+    "name": "Blackgram",
+    "avg_temperature": 30.0,
+    "avg_humidity": 65.1,
+    "avg_ph": 7.1,
+    "avg_rainfall": 67.9,
+    "avg_nitrogen": 40.0,
+    "avg_phosphorus": 67.5,
+    "avg_potassium": 19.2,
+    "soil_types": [
+      "Loamy Soil",
+      "Clay Loam"
+    ],
+    "growing_season": "Kharif/Rabi",
+    "water_requirement": "Low",
+    "duration": "70-90 days",
+    "states": [
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "icon": "fa-seedling"
+  },
+  "chickpea": {
+    "name": "Chickpea",
+    "avg_temperature": 18.9,
+    "avg_humidity": 16.9,
+    "avg_ph": 7.3,
+    "avg_rainfall": 80.1,
+    "avg_nitrogen": 40.1,
+    "avg_phosphorus": 67.8,
+    "avg_potassium": 79.9,
+    "soil_types": [
+      "Loamy Soil",
+      "Clay Loam"
+    ],
+    "growing_season": "Rabi (Oct-Mar)",
+    "water_requirement": "Low",
+    "duration": "90-120 days",
+    "states": [
+      "Madhya Pradesh",
+      "Rajasthan"
+    ],
+    "icon": "fa-seedling"
+  },
+  "coconut": {
+    "name": "Coconut",
+    "avg_temperature": 27.4,
+    "avg_humidity": 94.8,
+    "avg_ph": 6.0,
+    "avg_rainfall": 175.7,
+    "avg_nitrogen": 22.0,
+    "avg_phosphorus": 16.9,
+    "avg_potassium": 30.6,
+    "soil_types": [
+      "Sandy Loam",
+      "Coastal Alluvial"
+    ],
+    "growing_season": "Year-round (perennial)",
+    "water_requirement": "High",
+    "duration": "Perennial (fruits in 6-8 yrs)",
+    "states": [
+      "Kerala",
+      "Tamil Nadu"
+    ],
+    "icon": "fa-tree"
+  },
+  "coffee": {
+    "name": "Coffee",
+    "avg_temperature": 25.5,
+    "avg_humidity": 58.9,
+    "avg_ph": 6.8,
+    "avg_rainfall": 158.1,
+    "avg_nitrogen": 101.2,
+    "avg_phosphorus": 28.7,
+    "avg_potassium": 29.9,
+    "soil_types": [
+      "Loamy Soil",
+      "Laterite Soil"
+    ],
+    "growing_season": "Year-round (perennial)",
+    "water_requirement": "Medium",
+    "duration": "Perennial (fruits in 3-4 yrs)",
+    "states": [
+      "Karnataka",
+      "Kerala",
+      "Tamil Nadu"
+    ],
+    "icon": "fa-mug-hot"
+  },
+  "cotton": {
+    "name": "Cotton",
+    "avg_temperature": 24.0,
+    "avg_humidity": 79.8,
+    "avg_ph": 6.9,
+    "avg_rainfall": 80.4,
+    "avg_nitrogen": 117.8,
+    "avg_phosphorus": 46.2,
+    "avg_potassium": 19.6,
+    "soil_types": [
+      "Black Soil",
+      "Loamy Soil"
+    ],
+    "growing_season": "Kharif (Apr-Oct)",
+    "water_requirement": "Medium",
+    "duration": "150-180 days",
+    "states": [
+      "Gujarat",
+      "Maharashtra",
+      "Telangana"
+    ],
+    "icon": "fa-seedling"
+  },
+  "grapes": {
+    "name": "Grapes",
+    "avg_temperature": 23.8,
+    "avg_humidity": 81.9,
+    "avg_ph": 6.0,
+    "avg_rainfall": 69.6,
+    "avg_nitrogen": 23.2,
+    "avg_phosphorus": 132.5,
+    "avg_potassium": 200.1,
+    "soil_types": [
+      "Sandy Loam",
+      "Loamy Soil"
+    ],
+    "growing_season": "Year-round (perennial)",
+    "water_requirement": "Medium",
+    "duration": "Perennial (fruits in 2-3 yrs)",
+    "states": [
+      "Maharashtra",
+      "Karnataka"
+    ],
+    "icon": "fa-apple-whole"
+  },
+  "jute": {
+    "name": "Jute",
+    "avg_temperature": 25.0,
+    "avg_humidity": 79.6,
+    "avg_ph": 6.7,
+    "avg_rainfall": 174.8,
+    "avg_nitrogen": 78.4,
+    "avg_phosphorus": 46.9,
+    "avg_potassium": 40.0,
+    "soil_types": [
+      "Alluvial Soil"
+    ],
+    "growing_season": "Kharif (Mar-Jul)",
+    "water_requirement": "High",
+    "duration": "100-120 days",
+    "states": [
+      "West Bengal",
+      "Bihar",
+      "Assam"
+    ],
+    "icon": "fa-seedling"
+  },
+  "kidneybeans": {
+    "name": "Kidneybeans",
+    "avg_temperature": 20.1,
+    "avg_humidity": 21.6,
+    "avg_ph": 5.7,
+    "avg_rainfall": 105.9,
+    "avg_nitrogen": 20.8,
+    "avg_phosphorus": 67.5,
+    "avg_potassium": 20.0,
+    "soil_types": [
+      "Loamy Soil"
+    ],
+    "growing_season": "Rabi/Kharif",
+    "water_requirement": "Medium",
+    "duration": "90-100 days",
+    "states": [
+      "Uttarakhand",
+      "Himachal Pradesh"
+    ],
+    "icon": "fa-seedling"
+  },
+  "lentil": {
+    "name": "Lentil",
+    "avg_temperature": 24.5,
+    "avg_humidity": 64.8,
+    "avg_ph": 6.9,
+    "avg_rainfall": 45.7,
+    "avg_nitrogen": 18.8,
+    "avg_phosphorus": 68.4,
+    "avg_potassium": 19.4,
+    "soil_types": [
+      "Loamy Soil"
+    ],
+    "growing_season": "Rabi (Oct-Mar)",
+    "water_requirement": "Low",
+    "duration": "100-110 days",
+    "states": [
+      "Madhya Pradesh",
+      "Uttar Pradesh"
+    ],
+    "icon": "fa-seedling"
+  },
+  "maize": {
+    "name": "Maize",
+    "avg_temperature": 22.4,
+    "avg_humidity": 65.1,
+    "avg_ph": 6.2,
+    "avg_rainfall": 84.8,
+    "avg_nitrogen": 77.8,
+    "avg_phosphorus": 48.4,
+    "avg_potassium": 19.8,
+    "soil_types": [
+      "Loamy Soil",
+      "Sandy Loam"
+    ],
+    "growing_season": "Kharif/Rabi",
+    "water_requirement": "Medium",
+    "duration": "90-120 days",
+    "states": [
+      "Karnataka",
+      "Madhya Pradesh",
+      "Bihar"
+    ],
+    "icon": "fa-wheat-awn"
+  },
+  "mango": {
+    "name": "Mango",
+    "avg_temperature": 31.2,
+    "avg_humidity": 50.2,
+    "avg_ph": 5.8,
+    "avg_rainfall": 94.7,
+    "avg_nitrogen": 20.1,
+    "avg_phosphorus": 27.2,
+    "avg_potassium": 29.9,
+    "soil_types": [
+      "Alluvial Soil",
+      "Loamy Soil"
+    ],
+    "growing_season": "Year-round (perennial)",
+    "water_requirement": "Medium",
+    "duration": "Perennial (fruits in 3-5 yrs)",
+    "states": [
+      "Uttar Pradesh",
+      "Andhra Pradesh"
+    ],
+    "icon": "fa-apple-whole"
+  },
+  "mothbeans": {
+    "name": "Mothbeans",
+    "avg_temperature": 28.2,
+    "avg_humidity": 53.2,
+    "avg_ph": 6.8,
+    "avg_rainfall": 51.2,
+    "avg_nitrogen": 21.4,
+    "avg_phosphorus": 48.0,
+    "avg_potassium": 20.2,
+    "soil_types": [
+      "Sandy Soil"
+    ],
+    "growing_season": "Kharif (Jun-Sep)",
+    "water_requirement": "Low",
+    "duration": "75-90 days",
+    "states": [
+      "Rajasthan",
+      "Gujarat"
+    ],
+    "icon": "fa-seedling"
+  },
+  "mungbean": {
+    "name": "Mungbean",
+    "avg_temperature": 28.5,
+    "avg_humidity": 85.5,
+    "avg_ph": 6.7,
+    "avg_rainfall": 48.4,
+    "avg_nitrogen": 21.0,
+    "avg_phosphorus": 47.3,
+    "avg_potassium": 19.9,
+    "soil_types": [
+      "Loamy Soil"
+    ],
+    "growing_season": "Kharif/Summer",
+    "water_requirement": "Low",
+    "duration": "60-75 days",
+    "states": [
+      "Rajasthan",
+      "Maharashtra"
+    ],
+    "icon": "fa-seedling"
+  },
+  "muskmelon": {
+    "name": "Muskmelon",
+    "avg_temperature": 28.7,
+    "avg_humidity": 92.3,
+    "avg_ph": 6.4,
+    "avg_rainfall": 24.7,
+    "avg_nitrogen": 100.3,
+    "avg_phosphorus": 17.7,
+    "avg_potassium": 50.1,
+    "soil_types": [
+      "Sandy Loam"
+    ],
+    "growing_season": "Summer/Zaid",
+    "water_requirement": "Medium",
+    "duration": "80-100 days",
+    "states": [
+      "Uttar Pradesh",
+      "Punjab"
+    ],
+    "icon": "fa-apple-whole"
+  },
+  "orange": {
+    "name": "Orange",
+    "avg_temperature": 22.8,
+    "avg_humidity": 92.2,
+    "avg_ph": 7.0,
+    "avg_rainfall": 110.5,
+    "avg_nitrogen": 19.6,
+    "avg_phosphorus": 16.6,
+    "avg_potassium": 10.0,
+    "soil_types": [
+      "Loamy Soil",
+      "Sandy Loam"
+    ],
+    "growing_season": "Year-round (perennial)",
+    "water_requirement": "Medium",
+    "duration": "Perennial (fruits in 3-4 yrs)",
+    "states": [
+      "Maharashtra",
+      "Madhya Pradesh"
+    ],
+    "icon": "fa-apple-whole"
+  },
+  "papaya": {
+    "name": "Papaya",
+    "avg_temperature": 33.7,
+    "avg_humidity": 92.4,
+    "avg_ph": 6.7,
+    "avg_rainfall": 142.6,
+    "avg_nitrogen": 49.9,
+    "avg_phosphorus": 59.0,
+    "avg_potassium": 50.0,
+    "soil_types": [
+      "Loamy Soil"
+    ],
+    "growing_season": "Year-round (perennial)",
+    "water_requirement": "Medium",
+    "duration": "9-11 months",
+    "states": [
+      "Andhra Pradesh",
+      "Karnataka"
+    ],
+    "icon": "fa-apple-whole"
+  },
+  "pigeonpeas": {
+    "name": "Pigeonpeas",
+    "avg_temperature": 27.7,
+    "avg_humidity": 48.1,
+    "avg_ph": 5.8,
+    "avg_rainfall": 149.5,
+    "avg_nitrogen": 20.7,
+    "avg_phosphorus": 67.7,
+    "avg_potassium": 20.3,
+    "soil_types": [
+      "Loamy Soil",
+      "Sandy Loam"
+    ],
+    "growing_season": "Kharif (Jun-Dec)",
+    "water_requirement": "Low",
+    "duration": "150-180 days",
+    "states": [
+      "Maharashtra",
+      "Karnataka"
+    ],
+    "icon": "fa-seedling"
+  },
+  "pomegranate": {
+    "name": "Pomegranate",
+    "avg_temperature": 21.8,
+    "avg_humidity": 90.1,
+    "avg_ph": 6.4,
+    "avg_rainfall": 107.5,
+    "avg_nitrogen": 18.9,
+    "avg_phosphorus": 18.8,
+    "avg_potassium": 40.2,
+    "soil_types": [
+      "Loamy Soil",
+      "Sandy Loam"
+    ],
+    "growing_season": "Year-round (perennial)",
+    "water_requirement": "Medium",
+    "duration": "5-7 months per crop cycle",
+    "states": [
+      "Maharashtra",
+      "Karnataka"
+    ],
+    "icon": "fa-apple-whole"
+  },
+  "rice": {
+    "name": "Rice",
+    "avg_temperature": 23.7,
+    "avg_humidity": 82.3,
+    "avg_ph": 6.4,
+    "avg_rainfall": 236.2,
+    "avg_nitrogen": 79.9,
+    "avg_phosphorus": 47.6,
+    "avg_potassium": 39.9,
+    "soil_types": [
+      "Clayey Soil",
+      "Loamy Soil"
+    ],
+    "growing_season": "Kharif (Jun-Nov)",
+    "water_requirement": "High",
+    "duration": "120-150 days",
+    "states": [
+      "West Bengal",
+      "Uttar Pradesh",
+      "Punjab"
+    ],
+    "icon": "fa-seedling"
+  },
+  "watermelon": {
+    "name": "Watermelon",
+    "avg_temperature": 25.6,
+    "avg_humidity": 85.2,
+    "avg_ph": 6.5,
+    "avg_rainfall": 50.8,
+    "avg_nitrogen": 99.4,
+    "avg_phosphorus": 17.0,
+    "avg_potassium": 50.2,
+    "soil_types": [
+      "Sandy Loam"
+    ],
+    "growing_season": "Summer/Zaid",
+    "water_requirement": "Medium",
+    "duration": "80-100 days",
+    "states": [
+      "Uttar Pradesh",
+      "Andhra Pradesh"
+    ],
+    "icon": "fa-apple-whole"
+  }
+}

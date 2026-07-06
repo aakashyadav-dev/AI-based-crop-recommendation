@@ -1,0 +1,19 @@
+{
+  "trained_at": "2026-07-04T07:42:07.162929+00:00",
+  "sklearn_version": "1.7.2",
+  "dataset_hash": "d5e8f2e175dbc47d",
+  "dataset_rows": 2200,
+  "cv_accuracy_mean": 0.9943,
+  "cv_accuracy_std": 0.0048,
+  "test_accuracy": 0.9932,
+  "n_classes": 22,
+  "feature_order": [
+    "N",
+    "P",
+    "K",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ]
+}
