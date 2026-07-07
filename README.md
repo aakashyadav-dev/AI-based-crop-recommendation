@@ -99,13 +99,12 @@ graph TD
 - **🔗 RESTful API** – Easy integration with other applications.
 
 ## 🛠️ Tech Stack
- <p align="center"> <img src="https://skillicons.dev/icons?i=python,flask,nodejs,html,css,js" alt="Tech Stack" /> </p>
-
- Layer	                Technology
- Frontend	            HTML5, CSS3, JavaScript, Node.js
- Backend	            Python, Flask
- Machine Learning	    Scikit-Learn, Pandas, NumPy, Pickle
- Deployment	            Netlify (frontend), PythonAnywhere / Render (backend)
+| **Layer** | **Technology** |
+|-----------|----------------|
+| **Frontend** | HTML5, CSS3, JavaScript, Node.js |
+| **Backend** | Python, Flask |
+| **Machine Learning** | Scikit-Learn, Pandas, NumPy, Pickle |
+| **Deployment** | Netlify (frontend), PythonAnywhere / Render (backend) |
 
 
 ## 📂 Project Structure
@@ -243,15 +242,17 @@ Soumya Tripathy        Data Science and Data Analytics
 - Inspiration: Sustainable Development Goals (SDG 2 – Zero Hunger)
 - Built with ❤️ for the Hackathon community.
 
+
 ## 📄 License
-This project is licensed under the MIT License – see the LICENSE file for details.
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ## ⭐ Support Us
 If this project helps you, please give it a ⭐ on GitHub and share it with fellow farmers and developers!
 
-<p align="center"> <a href="https://github.com/yourusername/AI-Based-Crop-Recommendation"> <img src="https://img.shields.io/github/stars/yourusername/AI-Based-Crop-Recommendation?style=social" alt="GitHub stars" /> </a> <a href="https://github.com/yourusername/AI-Based-Crop-Recommendation/network/members"> <img src="https://img.shields.io/github/forks/yourusername/AI-Based-Crop-Recommendation?style=social" alt="GitHub forks" /> </a> </p>
+<p align="center"> <a href="https://github.com/aakashyadav-dev/AI-Based-Crop-Recommendation"> <img src="https://img.shields.io/github/stars/aakashyadav-dev/AI-Based-Crop-Recommendation?style=social" alt="GitHub stars" /> </a> <a href="https://github.com/aakashyadav-dev/AI-Based-Crop-Recommendation/network/members"> <img src="https://img.shields.io/github/forks/aakashyadav-dev/AI-Based-Crop-Recommendation?style=social" alt="GitHub forks" /> </a> </p>
 
-<p align="center"> <i>“Empowering farmers with AI – one prediction at a time.”</i> </p> ```
+<p align="center"> <i>“Empowering farmers with AI – one prediction at a time.”</i> </p> 
 
 
   
