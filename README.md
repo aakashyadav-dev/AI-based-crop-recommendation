@@ -145,7 +145,7 @@ AI-BASED-CROP-RECOMMENDATION/
 ```
 
 ### 🌐 Live Demo
-**🚀 Try it now**: https://aibasedcroprecommend.netlify.app
+**🚀 Try it now**: https://aibasedcroprecommend.netlify.app/
 
 ## 🚀 Installation & Setup
 **Prerequisites**
@@ -217,15 +217,22 @@ npm start
 # 📷 Screenshots
 
 # Home Page
-https://screenshots/home.png
+<img width="1470" height="823" alt="Screenshot 2026-07-07 at 2 15 49 PM" src="https://github.com/user-attachments/assets/560da975-b6d4-4cb1-98de-5a343b5b6cde" />
+
+# Weather and Soil information
+<img width="1165" height="763" alt="Screenshot 2026-07-07 at 2 16 59 PM" src="https://github.com/user-attachments/assets/1aaeb2e6-3e21-4a3c-a011-7d14c218bf67" />
+
 
 # Prediction Result
-https://screenshots/result.png
+<img width="873" height="778" alt="Screenshot 2026-07-07 at 2 18 31 PM" src="https://github.com/user-attachments/assets/056abe97-b0a8-4d70-9000-2b1b312a7c52" />
 
-### 👥 Team
-**Name**	           **Role**
-Aakash Yadav	       Full-Stack Developer & ML Engineer
-Soumya Tripathy        Data Science and Data Analytics
+
+## 👥 Team
+
+| **Name** | **Role** | **Connect** |
+|----------|----------|-------------|
+| **Aakash Yadav** | ML Engineer & Full-Stack Developer | [GitHub](https://github.com/aakashyadav-dev) • [LinkedIn](https://www.linkedin.com/in/aakashyadavtech/) |
+| **Soumya Tripathy** | Data Analyst & Data Scientist | [GitHub](https://github.com/soumya) • [LinkedIn](https://linkedin.com/in/soumya) |
 
 ### 🔮 Future Scope
 - **🧪 Fertilizer Recommendation** – Suggest optimal fertilizers and quantities.
