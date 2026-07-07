@@ -75,47 +75,42 @@ The model predicts the **best crop** from 22 different options, providing instan
 
 ```mermaid
 graph TD
-    A[User Inputs: N, P, K, Temp, Humidity, pH, Rainfall] --> B[Frontend (HTML/CSS/JS)]
+    A[User Inputs: N P K Temp Humidity pH Rainfall] --> B[Frontend HTML CSS JS]
     B --> C[Node.js Server]
     C --> D[Flask API Backend]
     D --> E[Load Pre-trained ML Model]
     E --> F[Predict Crop]
     F --> G[Return Prediction to Frontend]
     G --> H[Display Recommended Crop]
-User enters soil and climate data via the web form.
+```
+1. User enters soil and climate data via the web form.
+2. Frontend sends a POST request to the Flask API (hosted on the backend).
+3. Flask receives the data, scales it, and passes it to the Random Forest classifier.
+4. The model predicts the most suitable crop.
+5. The result is sent back and displayed to the user.
 
-Frontend sends a POST request to the Flask API (hosted on the backend).
 
-Flask receives the data, scales it, and passes it to the Random Forest classifier.
+### ✨ Key Features
+- **🤖 AI-Powered Prediction** – Uses a Random Forest model with ~99% accuracy on test data.
+- **🌾 Comprehensive Input** – Considers 7 critical parameters for holistic assessment.
+- **📊 Data Visualization** – (Optional) Display charts of input vs. recommended crop.
+- **⚡ Fast Response** – Predictions delivered in under 1 second.
+- **🌍 Responsive Design** – Works seamlessly on desktop, tablet, and mobile.
+- **🔗 RESTful API** – Easy integration with other applications.
 
-The model predicts the most suitable crop.
+## 🛠️ Tech Stack
+ <p align="center"> <img src="https://skillicons.dev/icons?i=python,flask,nodejs,html,css,js" alt="Tech Stack" /> </p>
 
-The result is sent back and displayed to the user.
+ Layer	                Technology
+ Frontend	            HTML5, CSS3, JavaScript, Node.js
+ Backend	            Python, Flask
+ Machine Learning	    Scikit-Learn, Pandas, NumPy, Pickle
+ Deployment	            Netlify (frontend), PythonAnywhere / Render (backend)
 
-✨ Key Features
-🤖 AI-Powered Prediction – Uses a Random Forest model with ~99% accuracy on test data.
 
-🌾 Comprehensive Input – Considers 7 critical parameters for holistic assessment.
+## 📂 Project Structure
 
-📊 Data Visualization – (Optional) Display charts of input vs. recommended crop.
-
-⚡ Fast Response – Predictions delivered in under 1 second.
-
-🌍 Responsive Design – Works seamlessly on desktop, tablet, and mobile.
-
-🔗 RESTful API – Easy integration with other applications.
-
-📦 Offline Ready – Model runs locally; no internet required after setup.
-
-🛠️ Tech Stack
-<p align="center"> <img src="https://skillicons.dev/icons?i=python,flask,nodejs,html,css,js" alt="Tech Stack" /> </p>
-Layer	Technology
-Frontend	HTML5, CSS3, JavaScript, Node.js
-Backend	Python, Flask
-Machine Learning	Scikit-Learn, Pandas, NumPy, Pickle
-Deployment	Netlify (frontend), PythonAnywhere / Render (backend)
-📂 Project Structure
-text
+```
 AI-BASED-CROP-RECOMMENDATION/
 │
 ├── 📁 frontend/                    # Frontend application
@@ -148,19 +143,20 @@ AI-BASED-CROP-RECOMMENDATION/
 │
 ├── 📄 README.md                    # Project documentation
 └── 📄 LICENSE                      # MIT License
-🌐 Live Demo
-🚀 Try it now: https://aibasedcroprecommend.netlify.app
+```
 
-🚀 Installation & Setup
-Prerequisites
-Python 3.8+
+### 🌐 Live Demo
+**🚀 Try it now**: https://aibasedcroprecommend.netlify.app
 
-Node.js 14+
+## 🚀 Installation & Setup
+**Prerequisites**
+- Python 3.8+
+- Node.js 14+
+- Git
 
-Git
+## Quick Start (One-Line Commands)
 
-Quick Start (One-Line Commands)
-bash
+```
 # Clone the repository
 git clone https://github.com/yourusername/AI-Based-Crop-Recommendation.git
 cd AI-Based-Crop-Recommendation
@@ -176,96 +172,86 @@ python app.py &
 cd ../frontend
 npm install
 npm start
-Your app will be live at http://localhost:3000 (frontend) and http://localhost:5000 (backend API).
+```
+## Detailed Steps
 
-Detailed Steps
 <details> <summary><b>Click for detailed installation guide</b></summary>
-1. Clone the repository
-bash
-git clone https://github.com/yourusername/AI-Based-Crop-Recommendation.git
-cd AI-Based-Crop-Recommendation
-2. Backend Setup
-bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
-3. Frontend Setup (new terminal)
-bash
-cd frontend
-npm install
-npm start
-4. Access the application
-Frontend: http://localhost:3000
 
-Backend API: http://localhost:5000 (for testing)
+# 1.Clone the repository
+- git clone https://github.com/yourusername/AI-Based-Crop-Recommendation.git
+- cd AI-Based-Crop-Recommendation
+
+# 2. Backend Setup
+- cd backend
+- python -m venv venv
+- source venv/bin/activate  # Windows: venv\Scripts\activate
+- pip install -r requirements.txt
+- python app.py
+
+# 3. Frontend Setup (new terminal)
+- cd frontend
+- npm install
+- npm start
+
+# 4. Access the application
+- Frontend: http://localhost:3000
+- Backend API: http://localhost:5000 (for testing)
 
 </details>
-📖 Usage Guide
-Open the application in your browser.
 
-Enter the following parameters:
+## 📖 Usage Guide
 
-Nitrogen (N) – e.g., 90
-
-Phosphorus (P) – e.g., 40
-
-Potassium (K) – e.g., 30
-
-Temperature (°C) – e.g., 25
-
-Humidity (%) – e.g., 70
-
-pH – e.g., 6.5
-
-Rainfall (mm) – e.g., 200
-
-Click the "Predict Crop" button.
-
-View the recommended crop and additional information (if any).
-
-Repeat for different conditions.
-
+1.Open the application in your browser.
+2.Enter the following parameters:
+- Nitrogen (N) – e.g., 90
+- Phosphorus (P) – e.g., 40
+- Potassium (K) – e.g., 30
+- Temperature (°C) – e.g., 25
+- Humidity (%) – e.g., 70
+- pH – e.g., 6.5
+- Rainfall (mm) – e.g., 200
+3. Click the "Predict Crop" button.
+4. View the recommended crop and additional information (if any).
+5. Repeat for different conditions.
 💡 Tip: Use real field data for the most accurate recommendations.
 
-📷 Screenshots
-Home Page	Prediction Result
-https://screenshots/home.png	https://screenshots/result.png
-(Replace with actual screenshots)
+# 📷 Screenshots
 
-👥 Team
-Name	Role
-Aakash	Full-Stack Developer & ML Engineer
-🔮 Future Scope
-🌤️ Real-time Weather Integration – Pull live weather data for location-based predictions.
+# Home Page
+https://screenshots/home.png
 
-🧪 Fertilizer Recommendation – Suggest optimal fertilizers and quantities.
+# Prediction Result
+https://screenshots/result.png
 
-🦠 Disease Prediction – Detect crop diseases from leaf images (deep learning).
+### 👥 Team
+**Name**	           **Role**
+Aakash Yadav	       Full-Stack Developer & ML Engineer
+Soumya Tripathy        Data Science and Data Analytics
 
-📈 Yield Estimation – Predict expected yield for recommended crop.
+### 🔮 Future Scope
+- **🧪 Fertilizer Recommendation** – Suggest optimal fertilizers and quantities.
+- **🦠 Disease Prediction** – Detect crop diseases from leaf images (deep learning).
+- **📈 Yield Estimation** – Predict expected yield for recommended crop.
+- **📱 Mobile App** – Native Android/iOS app for offline use.
+- **🗺️ GIS Integration** – Map-based crop suitability analysis.
+- **🌐 Multilingual Support** – Reach farmers in their native languages.
+- **📊 Farmer Dashboard** – Track historical predictions and outcomes.
 
-📱 Mobile App – Native Android/iOS app for offline use.
+## 🙏 Acknowledgments
 
-🗺️ GIS Integration – Map-based crop suitability analysis.
+- Dataset: Crop Recommendation Dataset (Kaggle)
+- Inspiration: Sustainable Development Goals (SDG 2 – Zero Hunger)
+- Built with ❤️ for the Hackathon community.
 
-🌐 Multilingual Support – Reach farmers in their native languages.
-
-📊 Farmer Dashboard – Track historical predictions and outcomes.
-
-🙏 Acknowledgments
-Dataset: Crop Recommendation Dataset (Kaggle)
-
-Inspiration: Sustainable Development Goals (SDG 2 – Zero Hunger)
-
-Built with ❤️ for the Hackathon community.
-
-📄 License
+## 📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-⭐ Support Us
+## ⭐ Support Us
 If this project helps you, please give it a ⭐ on GitHub and share it with fellow farmers and developers!
 
 <p align="center"> <a href="https://github.com/yourusername/AI-Based-Crop-Recommendation"> <img src="https://img.shields.io/github/stars/yourusername/AI-Based-Crop-Recommendation?style=social" alt="GitHub stars" /> </a> <a href="https://github.com/yourusername/AI-Based-Crop-Recommendation/network/members"> <img src="https://img.shields.io/github/forks/yourusername/AI-Based-Crop-Recommendation?style=social" alt="GitHub forks" /> </a> </p>
+
 <p align="center"> <i>“Empowering farmers with AI – one prediction at a time.”</i> </p> ```
+
+
+  
